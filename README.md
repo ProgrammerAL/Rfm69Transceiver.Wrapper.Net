@@ -12,7 +12,7 @@ The Demo project has an example on getting started with sending and receiving me
 1. Open command line to root directory of Rfm69Transceiver.sln solution file
 1. To compile a debug version run: dotnet publish ./Demo -c Debug -r linux-arm --self-contained
 1. Or, to compile a release version run: dotnet publish ./Demo -c Release -r linux-arm --self-contained
-1. Navigate to the output directory from your chosen publish command: ~/Demo/bin/<debug or release>/netcoreapp2.1/linux-arm/publish
+1. Navigate to the output directory from your chosen publish command: `~/Demo/bin/<debug or release>/netcoreapp2.1/linux-arm/publish`
 1. Copy all files in the publish folder and paste them to your desired location on a raspberry Pi (ex: /home/pi/Desktop/Practice)
 1. On the Raspberry Pi, open a terminal command line window and navigate to the folder you copy/pasted the above files to
 1. Run the demo project with the command: dotnet ProgrammerAl.HardwareSpecific.RF.Demo.dll
