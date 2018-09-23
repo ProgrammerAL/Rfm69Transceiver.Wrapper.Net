@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rfm69Transceiver", "Rfm69Transceiver\Rfm69Transceiver.csproj", "{6E580FA6-3726-452E-9C02-0895764C9EA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{3ADEAADE-B7E6-4B47-A58F-999DC299B272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rfm69Transceiver.RaspberryPi", "Rfm69Transceiver.RaspberryPi\Rfm69Transceiver.RaspberryPi.csproj", "{664B8E71-9B5A-4810-9D82-86475C3B936D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E580FA6-3726-452E-9C02-0895764C9EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E580FA6-3726-452E-9C02-0895764C9EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E580FA6-3726-452E-9C02-0895764C9EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E580FA6-3726-452E-9C02-0895764C9EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ADEAADE-B7E6-4B47-A58F-999DC299B272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ADEAADE-B7E6-4B47-A58F-999DC299B272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ADEAADE-B7E6-4B47-A58F-999DC299B272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ADEAADE-B7E6-4B47-A58F-999DC299B272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664B8E71-9B5A-4810-9D82-86475C3B936D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664B8E71-9B5A-4810-9D82-86475C3B936D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664B8E71-9B5A-4810-9D82-86475C3B936D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664B8E71-9B5A-4810-9D82-86475C3B936D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F5D292E-2BF7-4C09-AB57-73B20F85DF82}
+	EndGlobalSection
+EndGlobal

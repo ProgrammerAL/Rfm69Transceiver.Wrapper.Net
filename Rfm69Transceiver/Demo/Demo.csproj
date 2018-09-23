@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>ProgrammerAl.HardwareSpecific.RF.Demo</AssemblyName>
+    <RootNamespace>ProgrammerAl.HardwareSpecific.RF.Demo</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rfm69Transceiver.RaspberryPi\Rfm69Transceiver.RaspberryPi.csproj" />
+    <ProjectReference Include="..\Rfm69Transceiver\Rfm69Transceiver.csproj" />
+  </ItemGroup>
+
+</Project>
