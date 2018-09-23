@@ -6,8 +6,8 @@
     <AssemblyName>ProgrammerAl.HardwareSpecific.RF.Rfm69Transceiver</AssemblyName>
     <RootNamespace>ProgrammerAl.HardwareSpecific.RF</RootNamespace>
     <Authors>ProgrammerAl</Authors>
-    <Product>ProgrammerAl.HardwareSpecific.RF.Rfm69Transceiver</Product>
-    <PackageId>Rfm69Transceiver</PackageId>
+    <Product>ProgrammerAl.HardwareSpecific.RF.Rfm69Transceiver.Wrapper.Net</Product>
+    <PackageId>Rfm69Transceiver.Wrapper.Net</PackageId>
     <Description>This library is for controlling an RFM69 Transceiver through .NET. It wraps a native library for this. The only built in library is a Raspberry Pi library.</Description>
   </PropertyGroup>
 
