@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Rfm69Transceiver.RaspberryPi\Rfm69Transceiver.RaspberryPi.csproj" />
     <ProjectReference Include="..\Rfm69Transceiver\Rfm69Transceiver.csproj" />
   </ItemGroup>
 
