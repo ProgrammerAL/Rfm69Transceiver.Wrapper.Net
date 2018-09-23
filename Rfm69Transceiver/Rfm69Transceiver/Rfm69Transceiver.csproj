@@ -12,10 +12,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="NativeLibs\RaspberryPiRfm69Wrapper.o" />
     <Content Include="NativeLibs\RaspberryPiRfm69Wrapper.o">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Visible>true</Visible>
     </Content>
   </ItemGroup>
 

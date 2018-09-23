@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Rfm69Transceiver.Wrapper.Net</id>
+    <version>1.0.0</version>
+    <authors>ProgrammerAl</authors>
+    <owners>ProgrammerAl</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/ProgrammerAl/Rfm69Transceiver.Wrapper.Net/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ProgrammerAl/Rfm69Transceiver.Wrapper.Net</projectUrl>
+    <description>This library is for controlling an RFM69 Transceiver through .NET. It wraps a native library for this. The only built in library is a Raspberry Pi library.</description>
+    <repository type="git" url="https://github.com/ProgrammerAl/Rfm69Transceiver.Wrapper.Net" commit="23416efa5843837c9015fd4dff8eec2727ab42be" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="ErrorProne.NET" version="0.1.5898.41180" exclude="Build,Analyzers" />
+        <dependency id="ErrorProne.NET.Structs" version="0.1.0" exclude="Build,Analyzers" />
+        <dependency id="NativeLibraryLoader" version="1.0.10" exclude="Build,Analyzers" />
+        <dependency id="System.Buffers" version="4.5.0" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netstandard2.0/NativeLibs/RaspberryPiRfm69Wrapper.o" buildAction="Content" copyToOutput="true" />
+    </contentFiles>
+  </metadata>
+</package>
