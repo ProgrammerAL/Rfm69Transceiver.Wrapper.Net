@@ -29,11 +29,6 @@
   </ItemGroup>
 
   <PropertyGroup>
-    <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <EmbedUntrackedSources>true</EmbedUntrackedSources>
-    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
-    <PackageProjectUrl>https://github.com/ProgrammerAl/Rfm69Transceiver.Wrapper.Net</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/ProgrammerAl/Rfm69Transceiver.Wrapper.Net/blob/master/LICENSE</PackageLicenseUrl>
-    <RepositoryUrl>https://github.com/ProgrammerAl/Rfm69Transceiver.Wrapper.Net</RepositoryUrl>
+    <NuspecFile>Rfm69Transceiver.Wrapper.Net.nuspec</NuspecFile>
   </PropertyGroup>
 </Project>
