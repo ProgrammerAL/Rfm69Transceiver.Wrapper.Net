@@ -3,7 +3,7 @@
   <metadata>
     <id>Rfm69Transceiver.Wrapper.Net</id>
     <title>Rfm69Transceiver.Wrapper.Net</title>
-    <version>$version$</version>
+    <version>1.0.0.3-local</version>
     <authors>ProgrammerAl</authors>
     <owners>ProgrammerAl</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
