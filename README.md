@@ -1,4 +1,9 @@
 # Rfm69Transceiver
+
+[![Build status](https://dev.azure.com/ProgrammerAl/OSS/_apis/build/status/Rfm69Transceiver.Wrapper.Net)](https://dev.azure.com/ProgrammerAl/OSS/_build/latest?definitionId=30)
+
+![](https://sonarcloud.io/api/project_badges/measure?project=Rfm69Transceiver.Wrapper.Net&metric=alert_status)
+
 This repo is a .NET Wrapper for working with an RFM69 Transceiver on a Raspberry Pi. This is a wrapper around the code in https://github.com/ProgrammerAl/RaspberryPiRfm69.RaspberryPi repository. The compiled native library from that repo is already included in this one. Ys, it's not reccomended. But there won't be a lot of changes to this repo, so it's fine.
 
 ## How to Compile and Run
