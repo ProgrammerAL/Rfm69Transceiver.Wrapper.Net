@@ -12,8 +12,8 @@ namespace ProgrammerAl.HardwareSpecific.RF.Demo
             {
                 // To compile this to run on Raspberry Pi
                 //   Open command line to root directory of solution file
-                //      For Debug run:   dotnet publish ./Demo -c Release -r linux-arm --self-contained
-                //      For Release run: dotnet publish ./Demo -c Debug -r linux-arm --self-contained
+                //      For Debug run:   dotnet publish ./Demo -c Debug -r linux-arm --self-contained
+                //      For Release run: dotnet publish ./Demo -c Release -r linux-arm --self-contained
                 //   Copy/paste the files from the /publish folder to a specific location on the Raspberry Pi
                 //   On the Raspberry Pi, open a terminal command line window to the directory you copy/pasted the above files to
                 //   Run this project with: dotnet ProgrammerAl.HardwareSpecific.RF.Demo.dll
