@@ -1,10 +1,12 @@
-# Rfm69Transceiver
+# Rfm69Transceiver.Wrapper.Net 
 
 [![Build status](https://dev.azure.com/ProgrammerAl/OSS/_apis/build/status/Rfm69Transceiver.Wrapper.Net)](https://dev.azure.com/ProgrammerAl/OSS/_build/latest?definitionId=30)
 
 ![](https://sonarcloud.io/api/project_badges/measure?project=Rfm69Transceiver.Wrapper.Net&metric=alert_status)
 
-This repo is a .NET Wrapper for working with an RFM69 Transceiver on a Raspberry Pi. This is a wrapper around the code in https://github.com/ProgrammerAl/RaspberryPiRfm69.RaspberryPi repository. The compiled native library from that repo is already included in this one. Ys, it's not reccomended. But there won't be a lot of changes to this repo, so it's fine.
+This repo is a .NET Wrapper for working with an RFM69 Transceiver on a Raspberry Pi. This is a wrapper around the code in https://github.com/ProgrammerAl/RaspberryPiRfm69.RaspberryPi repository. The compiled native library from that repo is already included in this one. Ys, it's not reccomended. But there won't be a lot of changes to this repo, so it's fine. 
+
+The NuGet package is hosted [here](https://www.nuget.org/packages/ProgrammerAl.HardwareSpecific.RF.Rfm69Transceiver).
 
 ## How to Compile and Run
 The Demo project has an example on getting started with sending and receiving messages. If you would like to compile that project, use the following instructions. The instructions publish a self-contained .NET Core application, but you will still need to have the .NET Core runtime installed on your Raspberry Pi. If you have not already done so, download and install the runtime for the Linux ARM32 verion from https://www.microsoft.com/net/download. I've only run the below instructions from a Windows 10 machine, but they should work on any machine that supports .NET Core.
