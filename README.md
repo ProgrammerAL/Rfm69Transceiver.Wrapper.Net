@@ -17,5 +17,6 @@ The Demo project has an example on getting started with sending and receiving me
 1. On the Raspberry Pi, open a terminal command line window and navigate to the folder you copy/pasted the above files to
 1. Run the demo project with the command: dotnet ProgrammerAl.HardwareSpecific.RF.Demo.dll
 
-Reminder: This is hardware specific and will only work on a Raspberry Pi with an RFM69 Transceiver properly wired up.
-
+Important Notes:
+1. This is hardware specific and will only work on a Raspberry Pi with an RFM69 Transceiver properly wired up.
+1. If you are using the NuGet package, you need to manually force the RaspberryPiRfm69Wrapper.o file to be output as part of a build. If you're using Visual Studio, right-click the file and click properties. Then make sure the Copy to Output Directory option is set to Copy Always or Copy If Newer. If you are not using Visual Studio, you will need to manually edit your csproj file to copy the file to the output directory.
