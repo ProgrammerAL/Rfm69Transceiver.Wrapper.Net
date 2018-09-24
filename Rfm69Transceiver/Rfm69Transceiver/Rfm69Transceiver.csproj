@@ -30,7 +30,6 @@
 
   <ItemGroup>
     <None Remove="NativeLibs\RaspberryPiRfm69Wrapper.o" />
-    <None Remove="readme.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -40,7 +39,6 @@
       <PublishState>Included</PublishState>
       <Visible>true</Visible>
     </Content>
-    <Content Include="readme.txt" />
   </ItemGroup>
 
   <ItemGroup>
