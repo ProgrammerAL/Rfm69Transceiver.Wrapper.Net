@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Rfm69Transceiver.Wrapper.Net</id>
     <title>Rfm69Transceiver.Wrapper.Net</title>
-    <version>1.0.0.3-local</version>
+    <version>0.0.0-local</version>
     <authors>ProgrammerAl</authors>
     <owners>ProgrammerAl</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
