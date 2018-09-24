@@ -5,18 +5,42 @@
     <LangVersion>latest</LangVersion>
     <AssemblyName>ProgrammerAl.HardwareSpecific.RF.Rfm69Transceiver</AssemblyName>
     <RootNamespace>ProgrammerAl.HardwareSpecific.RF</RootNamespace>
+    <!--
+    <IncludeContentFilesProjectOutputGroup>true</IncludeContentFilesProjectOutputGroup>
+    <IncludeCopyLocalFilesOutputGroup>true</IncludeCopyLocalFilesOutputGroup>
+    <IncludeCustomOutputGroupForPackaging>true</IncludeCustomOutputGroupForPackaging>
+    <IncludeCopyLocalFilesOutputGroup>true</IncludeCopyLocalFilesOutputGroup>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    -->
+  </PropertyGroup>
+
+  <PropertyGroup>
     <Authors>ProgrammerAl</Authors>
-    <Product>ProgrammerAl.HardwareSpecific.RF.Rfm69Transceiver.Wrapper.Net</Product>
-    <PackageId>Rfm69Transceiver.Wrapper.Net</PackageId>
+    <Product>ProgrammerAl.HardwareSpecific.RF.Rfm69Transceiver</Product>
+    <PackageId>ProgrammerAl.HardwareSpecific.RF.Rfm69Transceiver</PackageId>
     <Description>This library is for controlling an RFM69 Transceiver through .NET. It wraps a native library for this. The only built in library is a Raspberry Pi library.</Description>
+    <IsTool>false</IsTool>
+    <IncludeBuildOutput>true</IncludeBuildOutput>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <PackageProjectUrl>https://github.com/ProgrammerAl/Rfm69Transceiver.Wrapper.Net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ProgrammerAl/Rfm69Transceiver.Wrapper.Net</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/ProgrammerAl/Rfm69Transceiver.Wrapper.Net/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>raspberry pi;transceiver;iot;</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="NativeLibs\RaspberryPiRfm69Wrapper.o" />
+    <None Remove="readme.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="NativeLibs\RaspberryPiRfm69Wrapper.o">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <PublishState>Included</PublishState>
       <Visible>true</Visible>
     </Content>
+    <Content Include="readme.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,8 +51,4 @@
     <PackageReference Include="System.Memory" Version="4.5.1" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta-63127-02" PrivateAssets="All" />
   </ItemGroup>
-
-  <PropertyGroup>
-    <NuspecFile>Rfm69Transceiver.Wrapper.Net.nuspec</NuspecFile>
-  </PropertyGroup>
 </Project>
