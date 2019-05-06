@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <LangVersion>latest</LangVersion>
     <AssemblyName>ProgrammerAl.HardwareSpecific.RF.Rfm69Transceiver</AssemblyName>
     <RootNamespace>ProgrammerAl.HardwareSpecific.RF</RootNamespace>
@@ -43,10 +43,7 @@
 
   <ItemGroup>
     <PackageReference Include="ErrorProne.NET" Version="0.1.5898.41180" PrivateAssets="All" />
-    <PackageReference Include="ErrorProne.NET.Structs" Version="0.1.0" PrivateAssets="All" />
-    <PackageReference Include="NativeLibraryLoader" Version="1.0.10" />
-    <PackageReference Include="System.Buffers" Version="4.5.0" />
-    <PackageReference Include="System.Memory" Version="4.5.1" />
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta-63127-02" PrivateAssets="All" />
+    <PackageReference Include="ErrorProne.NET.Structs" Version="0.2.0-beta.7" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta2-18618-05" PrivateAssets="All" />
   </ItemGroup>
 </Project>

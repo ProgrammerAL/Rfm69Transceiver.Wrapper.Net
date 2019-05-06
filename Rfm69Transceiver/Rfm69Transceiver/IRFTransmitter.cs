@@ -9,7 +9,7 @@ namespace ProgrammerAl.HardwareSpecific.RF
     {
         byte NetworkId { get; }
 
-        void QueueStringToBeTransmitted(ReadOnlyMemory<byte> message, RfEndpoint connectionInfo);
-        void QueueStringToBeTransmittedToEveryone(ReadOnlyMemory<byte> message);
+        void QueueStringToBeTransmitted(in ReadOnlyMemory<byte> message, RfEndpoint connectionInfo);
+        void QueueStringToBeTransmittedToEveryone(in ReadOnlyMemory<byte> message);
     }
 }
