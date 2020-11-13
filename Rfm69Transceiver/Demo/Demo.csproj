@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <LangVersion>latest</LangVersion>
     <AssemblyName>ProgrammerAl.HardwareSpecific.RF.Demo</AssemblyName>
     <RootNamespace>ProgrammerAl.HardwareSpecific.RF.Demo</RootNamespace>

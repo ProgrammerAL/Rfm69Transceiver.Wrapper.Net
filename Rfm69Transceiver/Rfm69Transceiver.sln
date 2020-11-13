@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rfm69Transceiver", "Rfm69Transceiver\Rfm69Transceiver.csproj", "{6E580FA6-3726-452E-9C02-0895764C9EA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rfm69Transceiver", "Rfm69Transceiver\Rfm69Transceiver.csproj", "{6E580FA6-3726-452E-9C02-0895764C9EA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{3ADEAADE-B7E6-4B47-A58F-999DC299B272}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{3ADEAADE-B7E6-4B47-A58F-999DC299B272}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
